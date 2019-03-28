@@ -41,7 +41,7 @@ Nilufer Anlar, style.css */
   text-decoration: underline overline;
 }
 
-#sidebar-container {
+#sidebar {
   position: fixed;
   right: 0%;
   background-color: red;
