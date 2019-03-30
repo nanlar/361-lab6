@@ -13,7 +13,7 @@ Nilufer Anlar, style.css */
   position: relative;
 }
 
-#main-navbar ul {
+#navbar-container ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -22,22 +22,25 @@ Nilufer Anlar, style.css */
   float: left;
 }
 
-#main-navbar ul li {
+#navbar-container ul li {
 	float: left;
 	position: relative;
 	right: 50%;
   display: block;
 }
 
-#main-navbar ul li a {
+#navbar-container ul li a {
 	display: block;
   padding: 10px 20px;
 	color: #fff;
 	text-decoration: none;
 }
 
-#main-navbar ul li a:hover {
+#navbar-container ul li a:hover {
 	background-color: #000;
+}
+
+#onpage {
   text-decoration: underline overline;
 }
 
@@ -49,20 +52,20 @@ Nilufer Anlar, style.css */
   width: 20%;
 }
 
-#sidebar ul {
+#sidebar-container ul {
 	list-style-type: none;
   text-align: center;
 	padding: 0;
 }
 
-#sidebar ul li a {
+#sidebar-container ul li a {
   display: block;
   padding: 15px 0;
   color: #fff;
   text-decoration: none;
 }
 
-#sidebar ul li a:hover {
+#sidebar-container ul li a:hover {
   background-color: #000;
 }
 
